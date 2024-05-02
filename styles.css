@@ -1,0 +1,226 @@
+body {
+  background-color: rgb(54, 54, 54);
+  background-image: url("./images/bg.jpg");
+  background-repeat: no-repeat;
+  background-size: 100vw 100vh;
+  margin-top: 10%;
+}
+
+#logo {
+  font-family: "Press Start 2P", system-ui;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 24px;
+}
+
+#login {
+  border: none;
+  color: white;
+  background-color: rgb(25, 72, 244);
+  padding: 8px 32px;
+  border-radius: 4px;
+  font-size: 20px;
+}
+
+#login:hover {
+  background-color: rgb(19, 56, 191);
+  cursor: pointer;
+}
+
+#card {
+  backdrop-filter: blur(14px);
+}
+
+#title {
+  color: white;
+}
+
+.lead {
+  color: rgb(229, 229, 229);
+  font-weight: bold;
+}
+
+.story1 {
+  width: 120px;
+  height: 100px;
+  margin: 4% 0 0 7%;
+  transform: rotate(-90deg);
+  position: absolute;
+  font-size: 20px;
+  color: aliceblue;
+  border-radius: 50%;
+}
+.story2 {
+  width: 140px;
+  height: 100px;
+  margin: -5% 0 0 -1%;
+  position: absolute;
+  font-size: 20px;
+  color: aliceblue;
+  border-radius: 50%;
+}
+.story3 {
+  width: 140px;
+  height: 100px;
+  margin: -14% 0 0 2%;
+  position: absolute;
+  font-size: 20px;
+  color: aliceblue;
+  border-radius: 50%;
+}
+.story4 {
+  width: 140px;
+  height: 100px;
+  margin: -17.5% 0 0 14%;
+  position: absolute;
+  font-size: 20px;
+  color: aliceblue;
+  border-radius: 50%;
+}
+.story5 {
+  width: 140px;
+  height: 100px;
+  margin: -14% 0 0 26%;
+  position: absolute;
+  font-size: 20px;
+  color: aliceblue;
+  border-radius: 50%;
+}
+.story6 {
+  width: 160px;
+  height: 160px;
+  margin: -6% 0 0 28%;
+  position: absolute;
+  font-size: 20px;
+  color: aliceblue;
+  border-radius: 50%;
+}
+.story7 {
+  width: 140px;
+  height: 100px;
+  margin: 5% 0 0 20%;
+  position: absolute;
+  font-size: 20px;
+  color: aliceblue;
+  border-radius: 50%;
+}
+
+.stages {
+  position: absolute;
+  width: 150px;
+  height: 140px;
+  border-radius: 50%;
+  margin: -8% 0 0 13.5%;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.stor {
+  margin-top: 40%;
+  margin-left: 16%;
+}
+
+@media (max-width: 1100px) {
+  .container {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+
+  .stor {
+    margin-top: 32%;
+    margin-left: 22%;
+  }
+
+  .story1 {
+    width: 120px;
+    height: 100px;
+    margin: 10% 0 0 7%;
+    transform: rotate(-90deg);
+    position: absolute;
+    font-size: 20px;
+    color: aliceblue;
+    border-radius: 50%;
+  }
+  .story2 {
+    width: 140px;
+    height: 100px;
+    margin: 0% 0 0 -3%;
+    position: absolute;
+    font-size: 20px;
+    color: aliceblue;
+    border-radius: 50%;
+  }
+  .story3 {
+    width: 140px;
+    height: 100px;
+    margin: -13% 0 0 0;
+    position: absolute;
+    font-size: 20px;
+    color: aliceblue;
+    border-radius: 50%;
+  }
+  .story4 {
+    width: 140px;
+    height: 100px;
+    margin: -19.5% 0 0 14%;
+    position: absolute;
+    font-size: 20px;
+    color: aliceblue;
+    border-radius: 50%;
+  }
+  .story5 {
+    width: 140px;
+    height: 100px;
+    margin: -12% 0 0 28%;
+    position: absolute;
+    font-size: 20px;
+    color: aliceblue;
+    border-radius: 50%;
+  }
+  .story6 {
+    width: 160px;
+    height: 160px;
+    margin: -3% 0 0 30%;
+    position: absolute;
+    font-size: 20px;
+    color: aliceblue;
+    border-radius: 50%;
+  }
+  .story7 {
+    width: 140px;
+    height: 100px;
+    margin: 10% 0 0 20%;
+    position: absolute;
+    font-size: 20px;
+    color: aliceblue;
+    border-radius: 50%;
+  }
+
+  .stages {
+    position: absolute;
+    width: 150px;
+    height: 140px;
+    border-radius: 50%;
+    margin: -8% 0 0 13.5%;
+  }
+}
+
+@media (min-width: 650px) and (max-width: 1400px) {
+  body {
+    background-image: url("./images/bg.jpg");
+    background-repeat: no-repeat;
+    background-size: 100vw 100%;
+  }
+}
+
+@media (max-width: 650px) {
+  body {
+    background-image: url("./images/bg.jpg");
+    background-repeat: no-repeat;
+    background-size: 100vw 100vh;
+    margin-top: 10%;
+  }
+}
